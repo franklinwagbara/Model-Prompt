@@ -1,80 +1,86 @@
-﻿using NUnit.Framework;
+﻿using System;
 using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Threading;
+using System.Windows.Media;
+using NUnit.Framework;
 
 namespace HelloWorldWPF.Tests
 {
-    [TestFixture]
-    [Apartment(ApartmentState.STA)]
+    [TestFixture, Apartment(ApartmentState.STA)]
     public class MainWindowTests
     {
-        private MainWindow _mainWindow;
+        private MainWindow mainWindow;
 
         [SetUp]
         public void Setup()
         {
-            _mainWindow = new MainWindow();
+            // Create a new MainWindow instance before each test
+            mainWindow = new MainWindow();
         }
 
         [TearDown]
         public void TearDown()
         {
-            // Ensure the window is closed after each test to release resources
-            if (_mainWindow != null)
+            // Close the window after each test to release resources
+            if (mainWindow != null)
             {
-                _mainWindow.Dispatcher.InvokeShutdown();
-                _mainWindow = null;
+                mainWindow.Close();
+                mainWindow = null;
             }
         }
 
         [Test]
-        public void MainWindow_Title_IsCorrect()
+        public void MainWindow_TitleIsCorrect()
         {
-            Assert.That(_mainWindow.Title, Is.EqualTo("My Hello World App"));
+            Assert.That(mainWindow.Title, Is.EqualTo("My Hello World App"));
         }
 
         [Test]
-        public void MainWindow_TextBlock_Exists()
+        public void MainWindow_TextBlockExists()
         {
-            Grid mainGrid = (Grid)_mainWindow.Content;
-            TextBlock helloWorldTextBlock = null;
-
-            // Iterate through the children of the MainGrid to find the TextBlock
-            foreach (UIElement child in mainGrid.Children)
+            // Access the Content of the Window which should be the Grid
+            if (mainWindow.Content is Grid mainGrid)
             {
-                if (child is TextBlock)
+                // Check if the Grid has children
+                Assert.That(mainGrid.Children.Count, Is.GreaterThan(0), "The MainGrid should have at least one child (the TextBlock).");
+
+                // Check if the first child is a TextBlock
+                Assert.That(mainGrid.Children[0], Is.TypeOf<TextBlock>(), "The first child of MainGrid should be a TextBlock.");
+            }
+            else
+            {
+                Assert.Fail("The Content of the MainWindow is not a Grid.");
+            }
+        }
+
+        [Test]
+        public void MainWindow_TextBlockPropertiesAreCorrect()
+        {
+            // Access the Content of the Window which should be the Grid
+            if (mainWindow.Content is Grid mainGrid)
+            {
+                // Ensure that mainGrid has children
+                Assert.That(mainGrid.Children.Count, Is.GreaterThan(0), "The MainGrid should have at least one child (the TextBlock).");
+
+                // Assuming the TextBlock is the first child of the Grid
+                if (mainGrid.Children[0] is TextBlock textBlock)
                 {
-                    helloWorldTextBlock = (TextBlock)child;
-                    break;
+                    Assert.That(textBlock.Text, Is.EqualTo("Hello, World!"));
+                    Assert.That(textBlock.FontFamily, Is.EqualTo(new FontFamily("Arial")));
+                    Assert.That(textBlock.FontSize, Is.EqualTo(24));
+                    Assert.That(textBlock.VerticalAlignment, Is.EqualTo(VerticalAlignment.Center));
+                    Assert.That(textBlock.HorizontalAlignment, Is.EqualTo(HorizontalAlignment.Center));
+                }
+                else
+                {
+                    Assert.Fail("The first child of MainGrid is not a TextBlock.");
                 }
             }
-
-            Assert.That(helloWorldTextBlock, Is.Not.Null, "TextBlock should exist in MainGrid");
-        }
-
-        [Test]
-        public void MainWindow_TextBlock_PropertiesAreCorrect()
-        {
-            Grid mainGrid = (Grid)_mainWindow.Content;
-            TextBlock helloWorldTextBlock = null;
-
-            // Iterate through the children of the MainGrid to find the TextBlock
-            foreach (UIElement child in mainGrid.Children)
+            else
             {
-                if (child is TextBlock)
-                {
-                    helloWorldTextBlock = (TextBlock)child;
-                    break;
-                }
+                Assert.Fail("The Content of the MainWindow is not a Grid.");
             }
-
-            Assert.That(helloWorldTextBlock.Text, Is.EqualTo("Hello, World!"));
-            Assert.That(helloWorldTextBlock.FontFamily.Source, Is.EqualTo("Arial"));
-            Assert.That(helloWorldTextBlock.FontSize, Is.EqualTo(24));
-            Assert.That(helloWorldTextBlock.HorizontalAlignment, Is.EqualTo(HorizontalAlignment.Center));
-            Assert.That(helloWorldTextBlock.VerticalAlignment, Is.EqualTo(VerticalAlignment.Center));
         }
     }
 }

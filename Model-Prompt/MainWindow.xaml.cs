@@ -1,10 +1,12 @@
-﻿// MainWindow.xaml.cs
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
 namespace HelloWorldWPF
 {
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -14,16 +16,19 @@ namespace HelloWorldWPF
             Title = "My Hello World App";
         }
 
+        /// <summary>
+        /// Initializes and adds a TextBlock to the MainGrid with predefined properties.
+        /// </summary>
         private void InitializeHelloWorldTextBlock()
         {
-            TextBlock helloWorldTextBlock = new TextBlock();
-            helloWorldTextBlock.Text = "Hello, World!";
-            helloWorldTextBlock.FontFamily = new FontFamily("Arial");
-            helloWorldTextBlock.FontSize = 24;
-            helloWorldTextBlock.HorizontalAlignment = HorizontalAlignment.Center;
-            helloWorldTextBlock.VerticalAlignment = VerticalAlignment.Center;
+            TextBlock helloWorldText = new TextBlock();
+            helloWorldText.Text = "Hello, World!";
+            helloWorldText.FontFamily = new FontFamily("Arial");
+            helloWorldText.FontSize = 24;
+            helloWorldText.VerticalAlignment = VerticalAlignment.Center;
+            helloWorldText.HorizontalAlignment = HorizontalAlignment.Center;
 
-            MainGrid.Children.Add(helloWorldTextBlock);
+            MainGrid.Children.Add(helloWorldText);
         }
     }
 }

@@ -17,3 +17,5 @@ C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\
 C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\Model-Prompt\obj\Debug\net8.0-windows7.0\Model-Prompt.pdb
 C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\Model-Prompt\obj\Debug\net8.0-windows7.0\Model-Prompt.genruntimeconfig.cache
 C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\Model-Prompt\obj\Debug\net8.0-windows7.0\ref\Model-Prompt.dll
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\Model-Prompt\obj\Debug\net8.0-windows7.0\Model-Prompt.sourcelink.json
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\Model-Prompt\obj\Debug\net8.0-windows7.0\Model-Prompt_MarkupCompile.lref

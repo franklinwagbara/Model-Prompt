@@ -104,3 +104,4 @@ C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\
 C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\TestProject12\obj\Debug\net8.0-windows7.0\TestProject12.pdb
 C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\TestProject12\obj\Debug\net8.0-windows7.0\TestProject12.genruntimeconfig.cache
 C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\TestProject12\obj\Debug\net8.0-windows7.0\ref\TestProject12.dll
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\TestProject12\obj\Debug\net8.0-windows7.0\TestProject12.sourcelink.json
