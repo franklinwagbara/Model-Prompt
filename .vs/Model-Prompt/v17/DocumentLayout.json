@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch1\\Task2\\Model-Prompt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40E9C11A-311B-7B53-0C4B-098CB7DD41C8}|Model-Prompt\\Model-Prompt.csproj|c:\\users\\franklin wagbara\\documents\\turing\\production\\batch1\\task2\\model-prompt\\model-prompt\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E9C11A-311B-7B53-0C4B-098CB7DD41C8}|Model-Prompt\\Model-Prompt.csproj|solutionrelative:model-prompt\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F36E593D-4D83-4BE1-A3B1-8C5815DEF415}|TestProject12\\TestProject12.csproj|c:\\users\\franklin wagbara\\documents\\turing\\production\\batch1\\task2\\model-prompt\\testproject12\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F36E593D-4D83-4BE1-A3B1-8C5815DEF415}|TestProject12\\TestProject12.csproj|solutionrelative:testproject12\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E9C11A-311B-7B53-0C4B-098CB7DD41C8}|Model-Prompt\\Model-Prompt.csproj|c:\\users\\franklin wagbara\\documents\\turing\\production\\batch1\\task2\\model-prompt\\model-prompt\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40E9C11A-311B-7B53-0C4B-098CB7DD41C8}|Model-Prompt\\Model-Prompt.csproj|solutionrelative:model-prompt\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch1\\Task2\\Model-Prompt\\TestProject12\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject12\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch1\\Task2\\Model-Prompt\\TestProject12\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject12\\UnitTest1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T16:38:33.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch1\\Task2\\Model-Prompt\\Model-Prompt\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Model-Prompt\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch1\\Task2\\Model-Prompt\\Model-Prompt\\MainWindow.xaml",
+              "RelativeToolTip": "Model-Prompt\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-21T16:19:11.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch1\\Task2\\Model-Prompt\\Model-Prompt\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Model-Prompt\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch1\\Task2\\Model-Prompt\\Model-Prompt\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Model-Prompt\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T16:15:40.287Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

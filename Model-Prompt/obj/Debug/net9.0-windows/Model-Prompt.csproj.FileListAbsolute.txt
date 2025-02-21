@@ -1,0 +1,4 @@
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\Model-Prompt\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\Model-Prompt\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\Model-Prompt\obj\Debug\net9.0-windows\Model-Prompt_MarkupCompile.cache
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch1\Task2\Model-Prompt\Model-Prompt\obj\Debug\net9.0-windows\Model-Prompt_MarkupCompile.lref

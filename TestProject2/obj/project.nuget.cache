@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "MeuB5DjjoU8=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch1\\Task2\\Model-Prompt\\TestProject2\\TestProject2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Franklin Wagbara\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
+    "C:\\Users\\Franklin Wagbara\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
+    "C:\\Users\\Franklin Wagbara\\.nuget\\packages\\microsoft.net.test.sdk\\17.12.0\\microsoft.net.test.sdk.17.12.0.nupkg.sha512",
+    "C:\\Users\\Franklin Wagbara\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.12.0\\microsoft.testplatform.objectmodel.17.12.0.nupkg.sha512",
+    "C:\\Users\\Franklin Wagbara\\.nuget\\packages\\microsoft.testplatform.testhost\\17.12.0\\microsoft.testplatform.testhost.17.12.0.nupkg.sha512",
+    "C:\\Users\\Franklin Wagbara\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Franklin Wagbara\\.nuget\\packages\\nunit\\4.2.2\\nunit.4.2.2.nupkg.sha512",
+    "C:\\Users\\Franklin Wagbara\\.nuget\\packages\\nunit.analyzers\\4.4.0\\nunit.analyzers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Franklin Wagbara\\.nuget\\packages\\nunit3testadapter\\4.6.0\\nunit3testadapter.4.6.0.nupkg.sha512",
+    "C:\\Users\\Franklin Wagbara\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Model-Prompt is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project Model-Prompt supports: net9.0-windows7.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "Model-Prompt",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
